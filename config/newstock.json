@@ -1,0 +1,103 @@
+{
+    "app_name": "My Application",
+    "version": "1.0",
+    "author": "John Doe",
+    "description": "A complex application built with tkinter.",
+    "license": "MIT",
+    "main": "app.py",
+
+    "settings": {
+      "window_title": "My Application",
+      "window_size": "800x600",
+      "default_font": "Arial 12",
+      "theme": "dark",
+      "icon": "app_icon.png",
+      
+      "splash_screen": {
+        "background_color": "222222",
+        "image": "splash_screen.png",
+        "progress_bar_color": "00ff00",
+        "progress_bar_width": 10,
+        "progress_bar_position": "bottom"
+      },
+
+      "menu": [
+        {
+          "title": "File",
+          "items": [
+            {"title": "New", "shortcut": "Ctrl+N", "command": "new_file"},
+            {"title": "Open", "shortcut": "Ctrl+O", "command": "open_file"},
+            {"title": "Save", "shortcut": "Ctrl+S", "command": "save_file"},
+            {"separator": true},
+            {"title": "Exit", "command": "exit_app"}
+          ]
+        },
+
+        {
+          "title": "Edit",
+          "items": [
+            {"title": "Undo", "shortcut": "Ctrl+Z", "command": "undo"},
+            {"title": "Redo", "shortcut": "Ctrl+Y", "command": "redo"},
+            {"separator": true},
+            {"title": "Cut", "shortcut": "Ctrl+X", "command": "cut"},
+            {"title": "Copy", "shortcut": "Ctrl+C", "command": "copy"},
+            {"title": "Paste", "shortcut": "Ctrl+V", "command": "paste"}
+          ]
+        },
+
+        {
+          "title": "View",
+          "items": [
+            {"title": "Toggle Fullscreen", "shortcut": "F11", "command": "toggle_fullscreen"},
+            {"separator": true},
+            {"title": "Zoom In", "shortcut": "Ctrl++", "command": "zoom_in"},
+            {"title": "Zoom Out", "shortcut": "Ctrl+-", "command": "zoom_out"}
+          ]
+        },
+
+        {
+          "title": "Help",
+          "items": [
+            {"title": "About", "command": "show_about_dialog"}
+          ]
+        }
+      ],
+
+      "status_bar": {
+        "text": "Ready",
+        "font": "Arial 10",
+        "background_color": "444444",
+        "foreground_color": "ffffff"
+      }
+    },
+
+    "New_Stock_Details": {
+      "Item Properties": "A4 Local\n\nItem Name....\nQuantity....\nPrice....\nDate...."
+    },
+
+    "New_Stock_Detail": [
+      "Item Name..",
+      "Quantity..",
+      "Price..",
+      "Date.."
+    ],
+
+    "dependencies": [
+      "tkinter",
+      "numpy",
+      "pandas",
+      "matplotlib"
+    ],
+
+    "app_description": {
+      "appname": "*Desktop Application *",
+
+      "dependencies": [
+        "tkinter",
+        "numpy",
+        "pandas",
+        "matplotlib"
+      ]
+    }
+  }
+  

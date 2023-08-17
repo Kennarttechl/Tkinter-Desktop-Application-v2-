@@ -1,0 +1,38 @@
+{
+    "theme": "#cc0a0a",
+    "theme2": "green",
+    "theme3": "#0081B4",
+    "theme4": "#EF5B0C",
+    "default_font": "Ubuntu-B.ttf",
+
+    "nice_color": {
+      "theme1": "#313131",
+      "theme2": "#595959",
+      "theme3": "#217346"
+    },
+
+    "admin_color": "#0080ff",
+    "admin_color2": "#2C3333",
+    "admin_color3": "gray20",
+    "file_menu_color": "#2E3840",
+    "menu_background_color": "gray20",
+    "menu_foreground_color": "white",
+    "Record": "New Records",
+    "DS_Enterprise": "Welcome to DS Enterprise",
+    "footer": "Developed by [Kennart-Tech]",
+    "master": "Welcome to Admin Dashboard",
+    "message_text_color": "white",
+    "usermessage": "Are you sure you want to\n''close this window",
+
+    "New_Stock_Details": [
+      "Item Name.. ",
+      "Quantity.. ",
+      "Price.. ",
+      "Date.. "
+    ],
+    
+    "more": {
+      "name": "kenneth"
+    }
+  }
+  

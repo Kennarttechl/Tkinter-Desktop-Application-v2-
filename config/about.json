@@ -1,0 +1,15 @@
+{
+    "default_font": "Ubuntu-B.ttf",
+
+    "author_email": "kennartfoundation@gmail.com",
+
+    "statusbar":{
+        "KT":"Develop by [Kennart-Tech]"
+    },
+
+    "entry_search": "Enter row ID",
+
+    "$schema":{
+        "kenneart@gmail.com": "mm"
+    }
+}
